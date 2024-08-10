@@ -19,17 +19,6 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-/* #find {
-    color: yellow;
-}
-
-#tvshow {
-    color: blue;
-}
-
-#com {
-    color: red
-} */
 
 section {
     display: flex;
@@ -51,6 +40,14 @@ input::placeholder {
 }
 
 
+
+img:hover {
+    transition: 1000ms;
+    box-shadow: 0px 0px 20px yellow;
+    transform: scale(1.03);
+}
+
+
 button {
     margin: 10px;
     padding: 10px;
@@ -58,6 +55,14 @@ button {
     border-radius: 5px;
     background-color: #2f84d3;
     color: white;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    transition: 1000ms;
+    box-shadow: 0px 0px 20px rgb(255, 149, 0);
+
 }
 
 
@@ -77,5 +82,5 @@ button {
 }
 
 img {
-    margin: 5px;
+    margin-bottom: 20px;
 }
